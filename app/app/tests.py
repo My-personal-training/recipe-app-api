@@ -4,6 +4,7 @@ Sample test file
 from django.test import SimpleTestCase
 from . import calc
 
+
 class CalcTests(SimpleTestCase):
     """Test the calc app"""
     def test_add_numbers(self):
